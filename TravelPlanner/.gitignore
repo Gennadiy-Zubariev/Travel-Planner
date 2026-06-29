@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+../.venv/
+venv/
+env/
+*.egg-info/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+travel_planner.db
+*.sqlite
+local_settings.py
+media/
+staticfiles/
+
+# Env
+TravelPlanner/.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Data folder (Docker volume)
+data/
